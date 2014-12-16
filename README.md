@@ -1,0 +1,4 @@
+bbar
+====
+
+Bayesian BAR notes
