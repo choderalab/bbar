@@ -1,0 +1,25 @@
+Matlab scripts for generating plots for 
+
+Chodera JD, Minh DDL, Shirts MR.
+Comment on "Bayesian estimates of free energies from nonequilibrium work data in the presence of instrument noise"
+
+FIGURE-GENERATING SCRIPTS
+
+coinflip_plots.m - Generate plots associated with simple coin-flip inference experiment.
+bbar_test_plot.m - Generate plots comparing BBAR with BAR-FN and BAR-FP in fixed-number and fixed-probability experiments.
+
+DRIVER SCRIPTS
+
+generate_confidence_plot_fixednumber.m - Test confidence levels for BBAR and BAR-FN in harmonic oscillator experiment with fixed number of forward/reverse switches.
+generate_confidence_plot_fixedprobability.m - Test confidence levels for BBAR and BAR-FN in harmonic oscillator experiment with fixed probability of forward/reverse switches.
+
+AUXILIARY SCRIPTS
+
+ABAR.m - Shirts BAR with asymptotic variance estimate for either fixed-number or fixed-probability (if optional probability is specified).
+BBAR.m - Implementation of Bayesian BAR that computes mean and specified confidence intervals from posterior.
+
+beta_confidence_interval.m - Compute the confidence intervals for a Beta distribution with specified parameters.
+
+MBAR.m - Two-state version of multistate Bennett acceptance ratio (MBAR).
+
+
